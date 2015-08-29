@@ -5,7 +5,7 @@ import (
 )
 
 type Client struct {
-	client    *http.client
+	client    *http.Client
 	APIkey    string
 	APIsecret string
 }
